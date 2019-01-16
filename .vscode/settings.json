@@ -1,0 +1,14 @@
+{
+  "prettier.eslintIntegration": true,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "typings",
+    "package-lock.json",
+    "package.json"
+  ]
+}

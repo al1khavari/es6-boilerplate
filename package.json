@@ -1,0 +1,32 @@
+{
+  "name": "es6-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple ES6 boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "author": "Ali Khavari",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "compression-webpack-plugin": "^1.1.11",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "prettier-eslint": "^8.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "unminified-webpack-plugin": "^2.0.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@fdaciuk/ajax": "^2.3.0",
+    "lodash": "^4.17.10"
+  }
+}
